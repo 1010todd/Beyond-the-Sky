@@ -2,6 +2,7 @@
  Endless Sky plugin expanding advanced alien contents
  
  Currently includes:
+ 
  -New Quarg warships & outfits:	
  
  -New Pug warship & outfits:	
