@@ -26,6 +26,7 @@ outfit "Quarg Skypiercer"
 		"acceleration" 2
 		"drag" .1
 		"homing" 4
+		"turn" 2
 		"optical tracking" .9
 		"radar tracking" .5
 		"missile strength" 37
