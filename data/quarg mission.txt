@@ -1,4 +1,4 @@
-mission "HTW Quarg Increased Security"
+mission "BytS Quarg Increased Security"
 	landing
 	invisible
 	to offer
@@ -6,7 +6,7 @@ mission "HTW Quarg Increased Security"
 	on offer
 		event "Quarg Increased Security"
 
-mission "HTW Quarg Increased Security 2"
+mission "BytS Quarg Increased Security 2"
 	landing
 	invisible
 	to offer
@@ -14,7 +14,7 @@ mission "HTW Quarg Increased Security 2"
 	on offer
 		event "Quarg Increased Security 2"
 		
-mission "HTW Quarg Increased Security 3"
+mission "BytS Quarg Increased Security 3"
 	landing
 	invisible
 	to offer
@@ -22,7 +22,15 @@ mission "HTW Quarg Increased Security 3"
 	on offer
 		event "Quarg Increased Security 3"
 
-mission "HTW Quarg Very Angry"
+mission "BytS Quarg Dangerous Player 1"
+	landing
+	invisible
+	to offer
+		"reputation: Quarg" <= -100
+		"armament deterrence" > 80
+	on offer
+
+mission "BytS Quarg Very Angry"
 	landing
 	invisible
 	to offer
@@ -68,8 +76,8 @@ mission "HTW Quarg Very Angry"
 			vindictive target staying
 		system Enif
 		to spawn
-			"armament deterrence" >= 200
-		fleet "Quarg Reseve Fleet" 4
+			"armament deterrence" >= 150
+		fleet "Quarg Reserve Fleet" 4
 		fleet "Quarg Warfleet" 4
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
@@ -78,8 +86,8 @@ mission "HTW Quarg Very Angry"
 			vindictive target staying
 		system Enif
 		to spawn
-			"armament deterrence" >= 400
-		fleet "Quarg Reseve Fleet" 20
+			"armament deterrence" >= 250
+		fleet "Quarg Reserve Fleet" 20
 		fleet "Quarg Warfleet" 12
 		fleet "Quarg Titan Warfleet" 3
 	npc kill
@@ -88,8 +96,8 @@ mission "HTW Quarg Very Angry"
 			vindictive target staying
 		system Enif
 		to spawn
-			"armament deterrence" >= 800
-		fleet "Quarg Reseve Fleet" 40
+			"armament deterrence" >= 750
+		fleet "Quarg Reserve Fleet" 40
 		fleet "Quarg Warfleet" 22
 		fleet "Quarg Titan Warfleet" 6
 	npc kill
@@ -99,7 +107,7 @@ mission "HTW Quarg Very Angry"
 		system Enif
 		to spawn
 			"armament deterrence" >= 1200
-		fleet "Quarg Reseve Fleet" 50
+		fleet "Quarg Reserve Fleet" 50
 		fleet "Quarg Warfleet" 32
 		fleet "Quarg Titan Warfleet" 20
 	npc kill
@@ -109,7 +117,7 @@ mission "HTW Quarg Very Angry"
 		system Enif
 		to spawn
 			"armament deterrence" >= 4900
-		fleet "Quarg Reseve Fleet" 90
+		fleet "Quarg Reserve Fleet" 90
 		fleet "Quarg Warfleet" 90
 		fleet "Quarg Titan Warfleet" 50
 	npc kill
@@ -119,7 +127,7 @@ mission "HTW Quarg Very Angry"
 		system Hevru Hai
 		to spawn
 			"armament deterrence" >= 200
-		fleet "Quarg Reseve Fleet" 4
+		fleet "Quarg Reserve Fleet" 4
 		fleet "Quarg Warfleet" 4
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
@@ -129,7 +137,7 @@ mission "HTW Quarg Very Angry"
 		system Hevru Hai
 		to spawn
 			"armament deterrence" >= 400
-		fleet "Quarg Reseve Fleet" 20
+		fleet "Quarg Reserve Fleet" 20
 		fleet "Quarg Warfleet" 12
 		fleet "Quarg Titan Warfleet" 3
 	npc kill
@@ -139,7 +147,7 @@ mission "HTW Quarg Very Angry"
 		system Hevru Hai
 		to spawn
 			"armament deterrence" >= 800
-		fleet "Quarg Reseve Fleet" 40
+		fleet "Quarg Reserve Fleet" 40
 		fleet "Quarg Warfleet" 22
 		fleet "Quarg Titan Warfleet" 6
 	npc kill
@@ -149,7 +157,7 @@ mission "HTW Quarg Very Angry"
 		system Hevru Hai
 		to spawn
 			"armament deterrence" >= 1200
-		fleet "Quarg Reseve Fleet" 50
+		fleet "Quarg Reserve Fleet" 50
 		fleet "Quarg Warfleet" 32
 		fleet "Quarg Titan Warfleet" 20
 	npc kill
@@ -159,15 +167,15 @@ mission "HTW Quarg Very Angry"
 		system Hevru Hai
 		to spawn
 			"armament deterrence" >= 4900
-		fleet "Quarg Reseve Fleet" 90
+		fleet "Quarg Reserve Fleet" 90
 		fleet "Quarg Warfleet" 90
 		fleet "Quarg Titan Warfleet" 50
 		
-event "Quarg Increased Security"
+event "BytS Quarg Increased Security"
 	fleet "Quarg"
 		add variant 4
 			"Quarg Skylark"
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 		add variant 4
 			"Quarg Skylark"
 			"Quarg Zilant"
@@ -177,17 +185,17 @@ event "Quarg Increased Security"
 		add variant 4
 			"Quarg Wardragon"
 			"Quarg Tiamat"
-			"Quarg Hydra"
+			"BytS Quarg Hydra"
 		add variant 4
 			"Quarg Wardragon"
 			"Quarg Zilant"
 		add variant 2
 			"Quarg Tiamat"
-			"Quarg Hydra"
+			"BytS Quarg Hydra"
 		add variant 2
 			"Quarg Tiamat" 2
 		add variant 2
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 	fleet "Large Quarg"
 		add variant 4
 			"Quarg Skylark" 2
@@ -196,7 +204,7 @@ event "Quarg Increased Security"
 		add variant 4
 			"Quarg Wardragon" 2
 			"Quarg Skylark"
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 		add variant 2
 			"Quarg Skylark" 2
 			"Quarg Wardragon" 2
@@ -205,7 +213,7 @@ event "Quarg Increased Security"
 		add variant 2
 			"Quarg Wardragon" 3
 			"Quarg Skylark"
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 			"Quarg Tiamat" 2
 		add variant 2
 			"Quarg Skylark" 3
@@ -216,50 +224,50 @@ event "Quarg Increased Security"
 			"Quarg Zilant"
 			"Quarg Tiamat" 3
 				
-event "Quarg Increased Security 2"
+event "BytS Quarg Increased Security 2"
 	fleet "Quarg"
 		add variant 6
 			"Quarg Zilant"
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 		add variant 6
 			"Quarg Zilant" 2
 		add variant 6
-			"Quarg Hydra"
+			"BytS Quarg Hydra"
 			"Quarg Tiamat" 2
 		add variant 6
 			"Quarg Tiamat"
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 		add variant 6
 			"Quarg Tiamat" 2
 			"Quarg Zilant" 2
 		add variant 4
 			"Quarg Tiamat"
-			"Quarg Hydra" 3
+			"BytS Quarg Hydra" 3
 		add variant 4
 			"Quarg Tiamat" 4
 		add variant 4
-			"Quarg Hydra" 4
+			"BytS Quarg Hydra" 4
 	fleet "Large Quarg"
 		add variant 6
-			"Quarg Hydra" 2
+			"BytS Quarg Hydra" 2
 			"Quarg Zilant"
 			"Quarg Tiamat" 5
 		add variant 6
 			"Quarg Zilant" 2
 			"Quarg Tiamat" 2
-			"Quarg Hydra" 4
+			"BytS Quarg Hydra" 4
 		add variant 4
-			"Quarg Hydra" 3
+			"BytS Quarg Hydra" 3
 			"Quarg Wardragon" 5
 			"Quarg Zilant"
 			"Quarg Tiamat" 4
 		add variant 4
 			"Quarg Wardragon" 8
 			"Quarg Skylark" 2
-			"Quarg Hydra" 4
+			"BytS Quarg Hydra" 4
 			"Quarg Tiamat" 2
 		add variant 4
-			"Quarg Hydra" 3
+			"BytS Quarg Hydra" 3
 			"Quarg Tiamat" 4
 			"Quarg Zilant" 2
 		add variant 4
@@ -267,7 +275,7 @@ event "Quarg Increased Security 2"
 			"Quarg Tiamat" 6
 			"Quarg Wardragon" 8
 			
-event "Quarg Increased Security 3"
+event "BytS Quarg Increased Security 3"
 	fleet "Quarg"
 		add variant 6
 			"Quarg Zilant"
@@ -275,7 +283,7 @@ event "Quarg Increased Security 3"
 		add variant 6
 			"Quarg Tarasque" 4
 		add variant 6
-			"Quarg Hydra"
+			"BytS Quarg Hydra"
 			"Quarg Tiamat" 2
 			"Quarg Tarasque" 2
 		add variant 6
@@ -303,17 +311,17 @@ event "Quarg Increased Security 3"
 			"Quarg Tarasque" 4
 			"Quarg Fafnir" 4
 		add variant 4
-			"Quarg Hydra" 4
+			"BytS Quarg Hydra" 4
 			"Quarg Fafnir" 5
 			"Quarg Zilant" 2
 			"Quarg Tarasque" 6
 		add variant 4
 			"Quarg Tarasque" 8
 			"Quarg Fafnir" 2
-			"Quarg Hydra" 4
+			"BytS Quarg Hydra" 4
 			"Quarg Tiamat" 6
 		add variant 4
-			"Quarg Hydra" 5
+			"BytS Quarg Hydra" 5
 			"Quarg Fafnir" 5
 			"Quarg Tarasque" 8
 			"Quarg Zilant" 3
@@ -323,7 +331,7 @@ event "Quarg Increased Security 3"
 			"Quarg Fafnir" 2
 			"Quarg Wardragon" 8
 				
-fleet "Quarg Reseve Fleet"
+fleet "Quarg Reserve Fleet"
 	government "Quarg"
 	names "quarg"
 	cargo 1
@@ -332,7 +340,7 @@ fleet "Quarg Reseve Fleet"
 	variant 1
 		"Quarg Zilant"
 		"Quarg Tiamat" 3
-		"Quarg Hydra" 2
+		"BytS Quarg Hydra" 2
 
 fleet "Quarg Warfleet"
 	government "Quarg"
@@ -343,6 +351,15 @@ fleet "Quarg Warfleet"
 	variant 1
 		"Quarg Tarasque" 3
 		"Quarg Fafnir" 3
+	variant 1
+		"Quarg Tarasque" 5
+		"Quarg Fafnir" 2
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 2
+	variant 1
+		"Quarg Tarasque" 3
+		"Quarg Fafnir" 4
 		
 fleet "Quarg Titan Warfleet"
 	government "Quarg"
@@ -357,7 +374,26 @@ fleet "Quarg Titan Warfleet"
 		"Quarg Gtuhanai"
 		"Quarg Tarasque" 2
 		
-mission "Quarg(HTW): Hunt player down I"
+fleet "Quarg Heavy Warfleet"
+	government "Quarg"
+	names "quarg"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 6
+	variant 1
+		"Quarg Tarasque" 10
+		"Quarg Fafnir" 4
+	variant 1
+		"Quarg Tarasque" 12
+		"Quarg Fafnir" 5
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 8
+		
+mission "BytS Quarg: Hunt player down I"
 	landing
 	invisible
 	repeat 5
@@ -417,7 +453,7 @@ mission "Quarg(HTW): Hunt player down I"
 	
 		
 government "Quarg" #Can't use add with government so have to do this. #I forget what I did here or why it's here.
-	swizzle 0
+	swizzle 6 #I think it was this..?
 	color .88 .77 0
 	
 	"player reputation" 1

@@ -1,6 +1,6 @@
 shipyard "developer"
 	"Quarg Tiamat"
-	"HTW Quarg Hydra"
+	"BytS Quarg Hydra"
 	"Quarg Zilant"
 	
 	"Quarg Fafnir"

@@ -200,7 +200,7 @@ ship "Quarg Hydra" #For compatibility
 	attributes
 		drag 10
 	
-ship "Quarg Hydra" "HTW Quarg Hydra"
+ship "Quarg Hydra" "BytS Quarg Hydra"
 	sprite "ship/quarg hydra"
 	#thumbnail "thumbnail/quarg hydra thumb"
 	attributes
