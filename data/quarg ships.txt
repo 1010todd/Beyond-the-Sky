@@ -74,6 +74,10 @@ ship "Quarg Zilant"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"piercing resistance" .2
+		"disruption resistance" .1
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -156,6 +160,10 @@ ship "Quarg Tiamat"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"piercing resistance" .2
+		"disruption resistance" .1
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -221,6 +229,10 @@ ship "Quarg Hydra" "BytS Quarg Hydra"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"piercing resistance" .2
+		"disruption resistance" .1
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -286,6 +298,10 @@ ship "Quarg Tarasque"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"piercing resistance" .5
+		"disruption resistance" .2
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -345,6 +361,10 @@ ship "Quarg Fafnir"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"piercing resistance" .5
+		"disruption resistance" .2
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -412,7 +432,11 @@ ship "Quarg Gtuhanai"
 		"hull energy" 5
 		"ramscoop" 10
 		"spinal mount" 1
-		"force protection" 5
+		"force protection" 7
+		"piercing resistance" .5
+		"disruption resistance" .2
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -506,7 +530,11 @@ ship "Quarg Psuchawrl"
 		"spinal mount" 1
 		"piercing resistance" .5
 		"disruption resistance" 1
-		"force protection" 5
+		"force protection" 8
+		"piercing resistance" .6
+		"disruption resistance" .2
+		"disruption resistance energy" 1
+		"disruption resistance heat" 1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
