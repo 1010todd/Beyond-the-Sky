@@ -42,22 +42,24 @@ outfit "Quarg Starwrath"
 	"weapon capacity" -100
 	"gun ports" -1
 	weapon
-		sprite "projectile/quarg ringedcircle"
+		sprite "projectile/quarg starwrath"
 			"frame rate" 1
-		"hardpoint sprite" "hardpoint/quarg skylance"
+		#"hardpoint sprite" "hardpoint/quarg skylance"
 		"hardpoint offset" 10
 		sound "skylance"
 		"hit effect" "skylance impact"
+		"live effect" "quarg starwrath live" 250
+		"live effect" "quarg starwrath spark" 125
 		"inaccuracy" 15
 		"velocity" 3
 		"lifetime" 250
 		"reload" 5
-		"burst count" 22
+		"burst count" 11
 		"burst reload" 1
 		"firing energy" 20
 		"firing heat" 10
-		"shield damage" 500
-		"hull damage" 100
+		"shield damage" 1000
+		"hull damage" 200
 		"disruption damage" 50
 		"acceleration" 1
 		"drag" .01
@@ -65,7 +67,24 @@ outfit "Quarg Starwrath"
 		"turn" 5
 		"optical tracking" .9
 		"cluster"
-	description "."
+	description "Quarg long-ranged anti-shield weapon."
+
+effect "quarg starwrath live"
+	sprite "effect/quarg starwrath"
+		"no repeat"
+		"frame rate" 30
+	lifetime 15
+	"velocity scale" .5
+	
+effect "quarg starwrath spark"
+	sprite "effect/quarg starwrath fragment"
+		"no repeat"
+		"frame rate" 30
+	lifetime 10
+	"velocity scale" 0
+	"random velocity" 10
+	"random angle" 360
+	
 
 outfit "Quarg Godblade"
 	category "Guns"
@@ -390,6 +409,8 @@ outfit "Quarg Etherealmace"
 		"slowing damage" 20
 	description "Short-range turret with high knockback and slowing damage."
 	
+#======================================AntiMissile
+	
 outfit "Quarg Pavise Anti-Missile"
 	category "Turrets"
 	cost 8000000
@@ -430,6 +451,8 @@ outfit "Quarg Buckler Anti-Missile"
 		"firing energy" 55
 	description "A compact short-ranged anti-missile."
 	
+#==============================Cooling
+	
 outfit "Quarg Station Cooler"
 	category "Systems"
 	cost 150000
@@ -440,6 +463,8 @@ outfit "Quarg Station Cooler"
 	"active cooling" 250
 	"cooling energy" 2
 	description `Large Quarg cooling system found on their ringworld and larger ships.`
+
+#=========================Power
 
 outfit "Antimatter Core"
 	category "Power"
@@ -462,6 +487,8 @@ outfit "Large Antimatter Core"
 	"heat generation" 55
 	"unplunderable" 1
 	description "A larger Quarg Antimatter core found on a few large Quarg Warships. It is significantly much more efficient than their standard Antimatter Core. No one can even guess how one of these even works."
+	
+#==================================Shield Gen
 	
 #Current Naming Scheme
 #Anti-Missile: (handheld) Shield types as it's often an active defense.
