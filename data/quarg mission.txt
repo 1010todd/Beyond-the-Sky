@@ -27,8 +27,9 @@ mission "BytS Quarg Dangerous Player 1"
 	invisible
 	to offer
 		"reputation: Quarg" <= -100
-		"armament deterrence" > 80
+		"armament deterrence" > 220
 	on offer
+		event "Quarg Increased Security 2"
 
 mission "BytS Quarg Very Angry"
 	landing
@@ -124,7 +125,7 @@ mission "BytS Quarg Very Angry"
 		government "Quarg"
 		personality
 			vindictive target staying
-		system Hevru Hai
+		system `Hevru Hai`
 		to spawn
 			"armament deterrence" >= 200
 		fleet "Quarg Reserve Fleet" 4
@@ -134,7 +135,7 @@ mission "BytS Quarg Very Angry"
 		government "Quarg"
 		personality
 			vindictive target staying
-		system Hevru Hai
+		system `Hevru Hai`
 		to spawn
 			"armament deterrence" >= 400
 		fleet "Quarg Reserve Fleet" 20
@@ -144,7 +145,7 @@ mission "BytS Quarg Very Angry"
 		government "Quarg"
 		personality
 			vindictive target staying
-		system Hevru Hai
+		system `Hevru Hai`
 		to spawn
 			"armament deterrence" >= 800
 		fleet "Quarg Reserve Fleet" 40
@@ -154,7 +155,7 @@ mission "BytS Quarg Very Angry"
 		government "Quarg"
 		personality
 			vindictive target staying
-		system Hevru Hai
+		system `Hevru Hai`
 		to spawn
 			"armament deterrence" >= 1200
 		fleet "Quarg Reserve Fleet" 50
@@ -164,7 +165,7 @@ mission "BytS Quarg Very Angry"
 		government "Quarg"
 		personality
 			vindictive target staying
-		system Hevru Hai
+		system `Hevru Hai`
 		to spawn
 			"armament deterrence" >= 4900
 		fleet "Quarg Reserve Fleet" 90
@@ -435,7 +436,7 @@ mission "BytS Quarg: Hunt player down I"
 	npc kill
 		government "Quarg"
 		to spawn
-			"armament deterrence" >= 120
+			"armament deterrence" >= 220
 		personality
 			vindictive unconstrained
 		system Enif
@@ -444,16 +445,73 @@ mission "BytS Quarg: Hunt player down I"
 	npc kill
 		government "Quarg"
 		to spawn
-			"armament deterrence" >= 380
+			"armament deterrence" >= 650
 		personality
 			vindictive unconstrained entering
 		system Enif
 		fleet "Quarg Warfleet" 32
 		fleet "Quarg Titan Warfleet" 8
 	
+mission "BytS Quarg(Hai): Hunt player down I"
+	landing
+	invisible
+	repeat 5
+	source
+		near `Hevru Hai` 0 5
+	to offer
+		"reputation: Quarg" <= -1000
+		or
+			random > 70
+			and
+				random > 60
+				"reputation: Quarg" <= -1500
+			and
+				random > 50
+				"reputation: Quarg" <= -2000
+			and
+				random > 40
+				"reputation: Quarg" <= -2500
+			and
+				random > 30
+				"reputation: Quarg" <= -3000
+			
+	npc kill
+		government "Quarg"
+		personality
+			vindictive unconstrained 
+		system `Hevru Hai`
+		fleet "Quarg Warfleet" 5
+		fleet "Quarg Titan Warfleet" 1
+	npc kill
+		government "Quarg"
+		to spawn
+			"armament deterrence" >= 50
+		personality
+			vindictive unconstrained
+		system `Hevru Hai`
+		fleet "Quarg Warfleet" 9
+		fleet "Quarg Titan Warfleet" 2
+	npc kill
+		government "Quarg"
+		to spawn
+			"armament deterrence" >= 220
+		personality
+			vindictive unconstrained
+		system `Hevru Hai`
+		fleet "Quarg Warfleet" 18
+		fleet "Quarg Titan Warfleet" 4
+	npc kill
+		government "Quarg"
+		to spawn
+			"armament deterrence" >= 600
+		personality
+			vindictive unconstrained entering
+		system `Hevru Hai`
+		fleet "Quarg Warfleet" 36
+		fleet "Quarg Titan Warfleet" 8
 		
-government "Quarg" #Can't use add with government so have to do this. #I forget what I did here or why it's here.
-	swizzle 6 #I think it was this..?
+government "Quarg"
+	swizzle 6
 	color .88 .77 0
 	
 	"player reputation" 1
