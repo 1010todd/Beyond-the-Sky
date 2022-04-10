@@ -1,0 +1,205 @@
+#	Systems followed by planets held within
+
+system "Beyond the Sky"
+	pos 100 -10000
+	government "cheat"
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Beyond the Sky"
+		sprite planet/ringworld
+		distance 812
+		offset 360
+
+planet "Beyond the Sky"
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	outfitter "Beyond the Sky"
+	shipyard "Beyond the Sky"
+	bribe 0
+
+planet "Plugins"
+	add outfitter "Beyond the Sky"
+	add shipyard "Beyond the Sky"
+
+#	Reveal missions
+
+mission "reveal omnis-beyond"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-beyond"
+
+event "reveal omnis-beyond"
+	visit "Beyond the Sky"
+
+#	Sales
+
+outfitter "Beyond the Sky"
+	"Cannonade Counter-assault"
+	"Ekpiro Cloaking Device"
+	"Fabric Shield Generator"
+	"Gauntlet Nanite Repair"
+	"Helm Nanite Repair"
+	"Lamellar Shield Generator"
+	"Large Antimatter Core"
+	"Large Graviton Steering"
+	"Large Graviton Thruster"
+	"Mail Shield Generator"
+	"Pauldron Nanite Repair"
+	"Pauncer Nanite Repair"
+	"Plate Shield Generator"
+	"Pug Aeek'elri"
+	"Pug Defense Grid"
+	"Pug Teleporter"
+	"Pug Yeaki'ark"
+	"Quarg Buckler Anti-Missile"
+	"Quarg Celestialhammer"
+	"Quarg Environment Suit"
+	"Quarg Etherealmace"
+	"Quarg Godblade"
+	"Quarg Pavise Anti-Missile"
+	"Quarg Skyfury"
+	"Quarg Skypiercer"
+	"Quarg Starpike"
+	"Quarg Starpilum"
+	"Quarg Starwrath"
+	"Quarg Station Cooler"
+	"Small Graviton Steering"
+	"Small Graviton Thruster"
+	"Tekskri Anti-Missile"
+	"Veeki'akei Engines"
+
+outfitter "pug plugins"
+	"Ekpiro Cloaking Device"
+	"Pug Aeek'elri"
+	"Pug Defense Grid"
+	"Pug Teleporter"
+	"Pug Yeaki'ark"
+	"Tekskri Anti-Missile"
+	"Veeki'akei Engines"
+
+outfitter "quarg plugins"
+	"Cannonade Counter-assault"
+	"Fabric Shield Generator"
+	"Gauntlet Nanite Repair"
+	"Helm Nanite Repair"
+	"Lamellar Shield Generator"
+	"Large Antimatter Core"
+	"Large Graviton Steering"
+	"Large Graviton Thruster"
+	"Mail Shield Generator"
+	"Pauldron Nanite Repair"
+	"Pauncer Nanite Repair"
+	"Plate Shield Generator"
+	"Quarg Buckler Anti-Missile"
+	"Quarg Celestialhammer"
+	"Quarg Environment Suit"
+	"Quarg Etherealmace"
+	"Quarg Godblade"
+	"Quarg Pavise Anti-Missile"
+	"Quarg Skyfury"
+	"Quarg Skypiercer"
+	"Quarg Starpike"
+	"Quarg Starpilum"
+	"Quarg Starwrath"
+	"Quarg Station Cooler"
+	"Small Graviton Steering"
+	"Small Graviton Thruster"
+
+shipyard "Beyond the Sky"
+	"BytS Quarg Hydra"
+	"Pug Heikfeuo"
+	"Pug Hukilgo"
+	"Pug Lzdihsek"
+	"Pug Theenkiek"
+	"Quarg Fafnir"
+	"Quarg Gtuhanai"
+	"Quarg Psuchawrl"
+	"Quarg Tarasque"
+	"Quarg Tiamat"
+	"Quarg Zilant"
+
+shipyard "pug plugins"
+	"Pug Heikfeuo"
+	"Pug Hukilgo"
+	"Pug Lzdihsek"
+	"Pug Theenkiek"
+
+shipyard "quarg plugins"
+	"BytS Quarg Hydra"
+	"Quarg Fafnir"
+	"Quarg Gtuhanai"
+	"Quarg Psuchawrl"
+	"Quarg Tarasque"
+	"Quarg Tiamat"
+	"Quarg Zilant"
