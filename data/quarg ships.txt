@@ -33,8 +33,8 @@ ship "Quarg Wardragon"
 		"Quantum Shield Generator"
 		"Intrusion Countermeasures" 160
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	engine -14 47
@@ -97,8 +97,8 @@ ship "Quarg Zilant"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 140
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	gun -14.5 -142
@@ -179,8 +179,8 @@ ship "Quarg Tiamat"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 140
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	turret -39.5 -24.5
@@ -249,8 +249,8 @@ ship "Quarg Hydra" "BytS Quarg Hydra"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 140
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	gun -24.5 -73
@@ -318,8 +318,8 @@ ship "Quarg Tarasque"
 		"Intrusion Countermeasures" 100
 		"Cannonade Counter-assault" 140
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	turret -66 -63
@@ -381,8 +381,8 @@ ship "Quarg Fafnir"
 		"Intrusion Countermeasures" 150
 		"Cannonade Counter-assault" 100
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
 		"Jump Drive"
 		
 	turret -35 -119
@@ -460,8 +460,8 @@ ship "Quarg Gtuhanai"
 		"Cannonade Counter-assault" 240
 		"Quarg Station Cooler" 2
 		
-		"Large Graviton Thruster" 2
-		"Large Graviton Steering" 2
+		"Yawl Graviton Thruster" 2
+		"Yawl Graviton Steering" 2
 		"Jump Drive"
 		
 	gun 0 -403
@@ -521,7 +521,7 @@ ship "Quarg Psuchawrl"
 		"heat dissipation" .65
 		"fuel capacity" 1500
 		"cargo space" 180
-		"outfit space" 5000
+		"outfit space" 5200
 		"weapon capacity" 2350
 		"engine capacity" 520
 		"hull repair rate" 5
@@ -557,8 +557,8 @@ ship "Quarg Psuchawrl"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 300
 		
-		"Large Graviton Thruster" 2
-		"Large Graviton Steering" 2
+		"Yawl Graviton Thruster" 2
+		"Yawl Graviton Steering" 2
 		"Jump Drive"
 		
 	turret -62.5 -291 "Quarg Buckler Anti-Missile"

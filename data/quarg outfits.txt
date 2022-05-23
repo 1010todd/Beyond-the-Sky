@@ -606,35 +606,10 @@ outfit "Quarg Environment Suit"
 	description `Each suit appears to be custom made for each Quarg varying slightly in proportion each with different patterns and texture on them, in line with Quarg fashion.`
 	description `The protection it grants also happens to be useful for combat as well but since it was made for the Quarg it is useless for you and your crews.`
 
-outfit "Large Graviton Thruster"
+#Sailrig
+outfit "Dhow Graviton Thruster"
 	category "Engines"
-	"cost" 20000000
-	thumbnail "outfit/medium quarg thruster"
-	"mass" 125
-	"outfit space" -125
-	"engine capacity" -125
-	"thrust" 130
-	"thrusting energy" 38
-	"thrusting heat" 18
-	"flare sprite" "effect/large graviton flare"
-	description "Quarg thrusters are extremely powerful for their size, but at the cost of consuming immense amounts of energy."
-
-outfit "Large Graviton Steering"
-	category "Engines"
-	"cost" 16000000
-	thumbnail "outfit/medium quarg steering"
-	"mass" 80
-	"outfit space" -80
-	"engine capacity" -80
-	"turn" 2600
-	"turning energy" 17
-	"turning heat" 7
-	"steering flare sprite" "effect/large graviton flare"
-	description "Quarg steering engines are as similarly impressive as their thrusters in how much energy they consume. The Quarg don't seem to be bothered by this cost though, given the unmatched strength of their reactors."
-	
-outfit "Small Graviton Thruster"
-	category "Engines"
-	"cost" 20000000
+	"cost" 10000000
 	thumbnail "outfit/medium quarg thruster"
 	"mass" 42
 	"outfit space" -42
@@ -645,9 +620,9 @@ outfit "Small Graviton Thruster"
 	"flare sprite" "effect/medium graviton flare"
 	description "Quarg thrusters are extremely powerful for their size, but at the cost of consuming immense amounts of energy."
 
-outfit "Small Graviton Steering"
+outfit "Dhow Graviton Steering"
 	category "Engines"
-	"cost" 16000000
+	"cost" 5000000
 	thumbnail "outfit/medium quarg steering"
 	"mass" 25
 	"outfit space" -25
@@ -656,4 +631,56 @@ outfit "Small Graviton Steering"
 	"turning energy" 7
 	"turning heat" 2
 	"steering flare sprite" "effect/medium graviton flare"
+	description "Quarg steering engines are as similarly impressive as their thrusters in how much energy they consume. The Quarg don't seem to be bothered by this cost though, given the unmatched strength of their reactors."
+
+outfit "Pion Graviton Thruster"
+	category "Engines"
+	"cost" 20000000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 80
+	"thrusting energy" 20
+	"thrusting heat" 10
+	"flare sprite" "effect/medium graviton flare"
+	description "Quarg thrusters are extremely powerful for their size, but at the cost of consuming immense amounts of energy."
+	
+outfit "Pion Graviton Steering"
+	category "Engines"
+	"cost" 16000000
+	thumbnail "outfit/medium quarg steering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 1600
+	"turning energy" 10
+	"turning heat" 5
+	"steering flare sprite" "effect/medium graviton flare"
+	description "Quarg steering engines are as similarly impressive as their thrusters in how much energy they consume. The Quarg don't seem to be bothered by this cost though, given the unmatched strength of their reactors."
+
+outfit "Yawl Graviton Thruster"
+	category "Engines"
+	"cost" 50000000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 125
+	"outfit space" -125
+	"engine capacity" -125
+	"thrust" 130
+	"thrusting energy" 38
+	"thrusting heat" 18
+	"flare sprite" "effect/large graviton flare"
+	description "Quarg thrusters are extremely powerful for their size, but at the cost of consuming immense amounts of energy."
+
+outfit "Yawl Graviton Steering"
+	category "Engines"
+	"cost" 26000000
+	thumbnail "outfit/medium quarg steering"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"turn" 2600
+	"turning energy" 17
+	"turning heat" 7
+	"steering flare sprite" "effect/large graviton flare"
 	description "Quarg steering engines are as similarly impressive as their thrusters in how much energy they consume. The Quarg don't seem to be bothered by this cost though, given the unmatched strength of their reactors."
