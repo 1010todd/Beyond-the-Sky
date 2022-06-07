@@ -103,7 +103,7 @@ outfit "Quarg Godblade"
 		"hit effect" "celestialhammer fragment impact" 12
 		"inaccuracy" .4
 		"velocity" 30
-		"velocity override" 50
+		"velocity override" 45
 		"lifetime" 120
 		"reload" 360
 		"firing energy" 3000
@@ -132,7 +132,7 @@ outfit "Quarg Celestialhammer"
 		sound "dragonflame"
 		"hit effect" "celestialhammer impact"
 		submunition "quarg celestialhammer fragment" 22
-		submunition "quarg celestialhammer micro fragment" 250
+		submunition "quarg celestialhammer micro fragment" 150
 		"inaccuracy" .4
 		"velocity" 120
 		"velocity override" 50
@@ -162,7 +162,7 @@ effect "celestialhammer impact"
 outfit "quarg celestialhammer fragment"
 	weapon
 		"live effect" "celestialhammer fragment live" 150
-		"hit effect" "celestialhammer fragment impact" 5
+		"hit effect" "celestialhammer fragment impact" 3
 		inaccuracy 360
 		lifetime 40
 		"velocity" 45
@@ -201,8 +201,8 @@ outfit "quarg celestialhammer micro fragment"
 		"velocity" 50
 		"random velocity" 20
 		"live effect" "quarg starpilum live" 150
-		"shield damage" 100
-		"hull damage" 80
+		"shield damage" 200
+		"hull damage" 160
 	
 outfit "Quarg Skyfury"
 	category "Turrets"
@@ -219,13 +219,13 @@ outfit "Quarg Skyfury"
 		sound "skylance"
 		"hit effect" "skylance impact"
 		"submunition" "skyfury sub1" 3
-		"live effect" "quarg small trail short" 35
+		"live effect" "quarg small trail short" 20
 		"inaccuracy" 3
 		"turret turn" 4.
 		"velocity" 25
 		"lifetime" 5
-		"reload" 6
-		"burst count" 12
+		"reload" 12
+		"burst count" 6
 		"burst reload" 1
 		"firing energy" 20
 		"firing heat" 12
@@ -242,7 +242,7 @@ outfit "Quarg Skyfury"
 
 outfit "skyfury sub1"
 	weapon
-		"live effect" "quarg small trail short" 35
+		"live effect" "quarg small trail short" 20
 		"inaccuracy" 76
 		"velocity" 20
 		"lifetime" 20
@@ -254,13 +254,13 @@ outfit "skyfury sub1"
 		
 outfit "skyfury sub2"
 	weapon
-		"live effect" "quarg small trail short" 35
+		"live effect" "quarg small trail short" 20
 		"inaccuracy" 75
 		"lifetime" 120
 		"drag" 0.05
 		"acceleration" 1
-		"shield damage" 80
-		"hull damage" 68
+		"shield damage" 160
+		"hull damage" 136
 		"homing" 4
 		"turn" 6
 		"optical tracking" .8
