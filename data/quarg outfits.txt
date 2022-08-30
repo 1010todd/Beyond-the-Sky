@@ -247,6 +247,8 @@ outfit "skyfury sub1"
 		"velocity" 20
 		"lifetime" 20
 		"homing" 4
+		"radar tracking" .7
+		"optical tracking" 1
 		"drag" 0.05
 		"turn" 10
 		"acceleration" 0.001

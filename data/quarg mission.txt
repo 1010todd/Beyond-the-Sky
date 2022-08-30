@@ -38,7 +38,7 @@ mission "BytS Quarg Increased Security"
 				"reputation: Quarg" <= -50
 				"BytS: Super Hard" == 1
 	on offer
-		event "Quarg Increased Security"
+		event "Byts Quarg Increased Security"
 
 mission "BytS Quarg Increased Security 2"
 	landing
@@ -50,7 +50,7 @@ mission "BytS Quarg Increased Security 2"
 				"reputation: Quarg" <= -250
 				"BytS: Super Hard" == 1
 	on offer
-		event "Quarg Increased Security 2"
+		event "Byts Quarg Increased Security 2"
 		
 mission "BytS Quarg Increased Security 3"
 	landing
@@ -62,7 +62,7 @@ mission "BytS Quarg Increased Security 3"
 				"reputation: Quarg" <= -500
 				"BytS: Super Hard" == 1
 	on offer
-		event "Quarg Increased Security 3"
+		event "Byts Quarg Increased Security 3"
 
 mission "BytS Quarg Dangerous Player 1"
 	landing
@@ -75,7 +75,7 @@ mission "BytS Quarg Dangerous Player 1"
 				"armament deterrence" > 200
 				"BytS: Super Hard" == 1
 	on offer
-		event "Quarg Increased Security 2"
+		event "Byts Quarg Increased Security 2"
 
 mission "BytS Quarg Very Angry"
 	landing

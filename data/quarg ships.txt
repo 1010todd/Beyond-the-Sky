@@ -223,9 +223,9 @@ ship "Quarg Hydra" "BytS Quarg Hydra"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 860
-		"weapon capacity" 220
-		"engine capacity" 120
+		"outfit space" 864
+		"weapon capacity" 272
+		"engine capacity" 128
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
@@ -425,9 +425,9 @@ ship "Quarg Gtuhanai"
 		"heat dissipation" .65
 		"fuel capacity" 1200
 		"cargo space" 20
-		"outfit space" 4700
-		"weapon capacity" 2150
-		"engine capacity" 260
+		"outfit space" 4854
+		"weapon capacity" 2337
+		"engine capacity" 280
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
