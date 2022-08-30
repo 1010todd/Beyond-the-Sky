@@ -1,0 +1,9 @@
+fleet "Pug T5 Patrol"
+	government "Pug"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+		confusion 20
+	variant 40
+		"Pug Lzdihsek" 3
