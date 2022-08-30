@@ -425,9 +425,9 @@ ship "Quarg Gtuhanai"
 		"heat dissipation" .65
 		"fuel capacity" 1200
 		"cargo space" 20
-		"outfit space" 4854
+		"outfit space" 4896
 		"weapon capacity" 2337
-		"engine capacity" 280
+		"engine capacity" 388
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
