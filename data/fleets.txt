@@ -7,3 +7,65 @@ fleet "Pug T5 Patrol"
 		confusion 20
 	variant 40
 		"Pug Lzdihsek" 3
+		
+fleet "Quarg Reserve Fleet"
+	government "Quarg"
+	names "quarg"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Quarg Zilant"
+		"Quarg Tiamat" 3
+		"BytS Quarg Hydra" 2
+
+fleet "Quarg Warfleet"
+	government "Quarg"
+	names "quarg"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Quarg Tarasque" 3
+		"Quarg Fafnir" 5
+	variant 1
+		"Quarg Tarasque" 5
+		"Quarg Fafnir" 2
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 2
+	variant 1
+		"Quarg Tarasque" 3
+		"Quarg Fafnir" 4
+		
+fleet "Quarg Titan Warfleet"
+	government "Quarg"
+	names "quarg"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Quarg Psuchawrl"
+		"Quarg Tarasque" 2
+	variant 1
+		"Quarg Gtuhanai"
+		"Quarg Tarasque" 2
+		
+fleet "Quarg Heavy Warfleet"
+	government "Quarg"
+	names "quarg"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 6
+	variant 1
+		"Quarg Tarasque" 10
+		"Quarg Fafnir" 4
+	variant 1
+		"Quarg Tarasque" 12
+		"Quarg Fafnir" 5
+	variant 1
+		"Quarg Tarasque" 6
+		"Quarg Fafnir" 8

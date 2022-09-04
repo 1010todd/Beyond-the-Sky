@@ -1,4 +1,4 @@
-mission "HTW Pug Very Angry at Being Farmed"
+mission "BytS Pug Very Angry at Being Farmed"
 	landing
 	invisible
 	to offer
@@ -19,7 +19,7 @@ mission "HTW Pug Very Angry at Being Farmed"
 		system "Pug Iyik"
 		to spawn
 			or
-				"armament deterrence" >= 500
+				"armament deterrence" >= 2000
 				and
 					"armament deterrence" >= 100
 					has "BytS: Extra Hard"
@@ -31,7 +31,7 @@ mission "HTW Pug Very Angry at Being Farmed"
 		system "Pug Iyik"
 		to spawn
 			or
-				"armament deterrence" >= 1000
+				"armament deterrence" >= 4000
 				and
 					"armament deterrence" >= 300
 					has "BytS: Extra Hard"
@@ -45,7 +45,7 @@ mission "HTW Pug Very Angry at Being Farmed"
 		system "Pug Iyik"
 		to spawn
 			or
-				"armament deterrence" >= 1750
+				"armament deterrence" >= 12000
 				and
 					"armament deterrence" >= 500
 					has "BytS: Extra Hard"
@@ -61,7 +61,7 @@ mission "HTW Pug Very Angry at Being Farmed"
 		system "Pug Iyik"
 		to spawn
 			or
-				"armament deterrence" >= 2500
+				"armament deterrence" >= 25000
 				and
 					"armament deterrence" >= 800
 					has "BytS: Extra Hard"
@@ -77,7 +77,7 @@ mission "HTW Pug Very Angry at Being Farmed"
 		system "Pug Iyik"
 		to spawn
 			or
-				"armament deterrence" >= 3000
+				"armament deterrence" >= 63000
 				and
 					"armament deterrence" >= 1000
 					has "BytS: Extra Hard"
