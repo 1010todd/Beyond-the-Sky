@@ -583,7 +583,6 @@ outfit "Intrusion Countermeasures"
 	category "Systems"
 	thumbnail "outfit/quarg countermeasures"
 	"capture defense" 120
-	"outfit space" -0.1
 	"unplunderable" 1
 	description "Quarg ships are outfitted with special systems for repelling boarders."
 	
@@ -593,7 +592,6 @@ outfit "Cannonade Counter-assault"
 	thumbnail "outfit/quarg countermeasures"
 	"capture defense" 240
 	"capture attack" 40
-	"outfit space" -0.1
 	"unplunderable" 1
 	description `A significantly more lethal shipboard weapon system than what found on normal Quarg ships, it fires multiple guided beams of intense, highly focused energy creeping through corridors and vents at frightening speed and strike multiple unsuspecting foe right at their weak point and make a quick work of any armor they may have, one of this is often enough to sweep entire corridor clear of to-be invaders in a single sweep.`
 
