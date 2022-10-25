@@ -28,7 +28,7 @@ ship "Quarg Wardragon"
 		"Quarg Skylance" 2
 		"Quarg Anti-Missile" 2
 		
-		"Antimatter Core"
+		"Red-type Antimatter Core"
 		"Nanotech Battery"
 		"Quantum Shield Generator"
 		"Intrusion Countermeasures" 160
@@ -68,7 +68,7 @@ ship "Quarg Zilant"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 20
-		"outfit space" 1560
+		"outfit space" 1574
 		"weapon capacity" 1150
 		"engine capacity" 120
 		"hull repair rate" 5
@@ -90,8 +90,8 @@ ship "Quarg Zilant"
 		"Quarg Skyfury" 2
 		"Quarg Buckler Anti-Missile" 2
 		
-		"Antimatter Core"
-		"Nanotech Battery"
+		"Magenta-type Antimatter Core"
+		"Nanotech Battery" 2
 		"Plate Shield Generator"
 		"Quarg Station Cooler"
 		"Intrusion Countermeasures" 160
@@ -137,7 +137,7 @@ ship "Quarg Zilant"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "Quarg Zilant is an extremely ancient Quarg warship packed with firepower enough to severely cripple if not destroy even warships heavier than itself."
+	description "Quarg Zilant is an extremely ancient large Quarg warship packed with firepower enough to severely cripple if not destroy even warships heavier than itself."
 	
 ship "Quarg Tiamat"
 	sprite "ship/quarg tiamat"
@@ -152,9 +152,9 @@ ship "Quarg Tiamat"
 		"mass" 584
 		"drag" 10.9
 		"heat dissipation" .6
-		"fuel capacity" 1400
+		"fuel capacity" 1200
 		"cargo space" 12
-		"outfit space" 820
+		"outfit space" 985
 		"weapon capacity" 550
 		"engine capacity" 120
 		"hull repair rate" 5
@@ -173,8 +173,8 @@ ship "Quarg Tiamat"
 		"Quarg Skylance" 4
 		"Quarg Buckler Anti-Missile" 1
 		
-		"Antimatter Core"
-		"Nanotech Battery"
+		"Orange-type Antimatter Core"
+		"Nanotech Battery" 2
 		"Plate Shield Generator"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 140
@@ -223,7 +223,7 @@ ship "Quarg Hydra" "BytS Quarg Hydra"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 864
+		"outfit space" 1029
 		"weapon capacity" 272
 		"engine capacity" 128
 		"hull repair rate" 5
@@ -243,8 +243,8 @@ ship "Quarg Hydra" "BytS Quarg Hydra"
 		"Quarg Etherealmace" 2
 		"Quarg Buckler Anti-Missile" 2
 		
-		"Antimatter Core"
-		"Nanotech Battery"
+		"Orange-type Antimatter Core"
+		"Nanotech Battery" 2
 		"Plate Shield Generator"
 		"Intrusion Countermeasures" 160
 		"Cannonade Counter-assault" 140
@@ -292,7 +292,7 @@ ship "Quarg Tarasque"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 1100
+		"outfit space" 1283
 		"weapon capacity" 550
 		"engine capacity" 120
 		"hull repair rate" 5
@@ -311,8 +311,8 @@ ship "Quarg Tarasque"
 		"Quarg Pavise Anti-Missile" 2
 		"Quarg Starpike" 4
 		
-		"Antimatter Core"
-		"Nanotech Battery"
+		"Orange-type Antimatter Core"
+		"Nanotech Battery" 2
 		"Plate Shield Generator"
 		"Quarg Station Cooler"
 		"Intrusion Countermeasures" 100
@@ -355,7 +355,7 @@ ship "Quarg Fafnir"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 1220
+		"outfit space" 1389
 		"weapon capacity" 750
 		"engine capacity" 120
 		"hull repair rate" 5
@@ -375,8 +375,8 @@ ship "Quarg Fafnir"
 		"Quarg Starpike" 4
 		"Quarg Pavise Anti-Missile" 2
 		
-		"Antimatter Core"
-		"Nanotech Battery"
+		"Magenta-type Antimatter Core"
+		"Nanotech Battery" 2
 		"Plate Shield Generator"
 		"Intrusion Countermeasures" 150
 		"Cannonade Counter-assault" 100
@@ -451,8 +451,8 @@ ship "Quarg Gtuhanai"
 		"Quarg Starpilum" 2
 		"Quarg Etherealmace" 6
 		
-		"Antimatter Core" 3
-		"Large Antimatter Core" 2
+		"Blue-type Antimatter Core"
+		"Orange-type Antimatter Core" 2
 		"Nanotech Battery" 4
 		"Plate Shield Generator" 4
 		"Pauncer Nanite Repair" 2
@@ -548,8 +548,8 @@ ship "Quarg Psuchawrl"
 		"Quarg Skyfury" 4
 		"Quarg Etherealmace" 6
 		
-		"Antimatter Core" 3
-		"Large Antimatter Core" 2
+		"Blue-type Antimatter Core"
+		"Orange-type Antimatter Core" 2
 		"Nanotech Battery" 4
 		"Quarg Station Cooler" 4
 		"Plate Shield Generator" 4

@@ -1,4 +1,5 @@
-outfit "Quarg Skypiercer"
+#Torpedo: High burst damage, less DPS.
+outfit "Quarg Skypiercer" 
 	category "Guns"
 	cost 180000000
 	thumbnail "outfit/quarg skylance"
@@ -14,16 +15,16 @@ outfit "Quarg Skypiercer"
 		"inaccuracy" 7
 		"velocity" 15
 		"lifetime" 300
-		"reload" 12
+		"reload" 38
 		"burst count" 3
 		"burst reload" 5
-		"firing energy" 56
-		"firing heat" 33
+		"firing energy" 298
+		"firing heat" 188
 		"shield damage" 800
 		"hull damage" 680
 		"ion damage" 50
 		"disruption damage" 50
-		"acceleration" 2
+		"acceleration" 1.5
 		"drag" .1
 		"homing" 4
 		"turn" 2
@@ -32,6 +33,7 @@ outfit "Quarg Skypiercer"
 		"missile strength" 37
 		"cluster"
 	description "Quarg energy torpedo"
+
 
 outfit "Quarg Starwrath"
 	category "Guns"
@@ -56,11 +58,10 @@ outfit "Quarg Starwrath"
 		"reload" 5
 		"burst count" 11
 		"burst reload" 1
-		"firing energy" 20
-		"firing heat" 10
-		"shield damage" 1000
-		"hull damage" 200
-		"disruption damage" 50
+		"firing energy" 125
+		"firing heat" 98
+		"shield damage" 750
+		"hull damage" 150
 		"acceleration" 1
 		"drag" .01
 		"homing" 4
@@ -106,8 +107,8 @@ outfit "Quarg Godblade"
 		"velocity override" 45
 		"lifetime" 120
 		"reload" 360
-		"firing energy" 3000
-		"firing heat" 1000
+		"firing energy" 128000
+		"firing heat" 10000
 		"acceleration" 1
 		"shield damage" 220000
 		"hull damage" 400000
@@ -227,8 +228,8 @@ outfit "Quarg Skyfury"
 		"reload" 12
 		"burst count" 6
 		"burst reload" 1
-		"firing energy" 20
-		"firing heat" 12
+		"firing energy" 272
+		"firing heat" 180
 		"shield damage" 80
 		"hull damage" 68
 		"acceleration" 1
@@ -313,8 +314,8 @@ outfit "Quarg Starpike"
 		"velocity" 1000
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 45
-		"firing heat" 20
+		"firing energy" 35
+		"firing heat" 18
 		"shield damage" 80
 		"hull damage" 68
 		"damage dropoff" 700
@@ -348,8 +349,8 @@ outfit "Quarg Starpilum"
 		"reload" 15
 		"burst count" 5
 		"burst reload" 10
-		"firing energy" 34
-		"firing heat" 15
+		"firing energy" 80
+		"firing heat" 75
 		"piercing" .5
 		"disruption damage" 50
 	description "Quarg Long-ranged shield piercing weapon."
@@ -403,12 +404,12 @@ outfit "Quarg Etherealmace"
 		"velocity" 15
 		"lifetime" 30
 		"reload" 32
-		"firing energy" 35
-		"firing heat" 20
+		"firing energy" 175
+		"firing heat" 100
 		"shield damage" 350
 		"hull damage" 980
 		"hit force" 50
-		"slowing damage" 20
+		"slowing damage" 10
 	description "Short-range turret with high knockback and slowing damage."
 	
 #======================================AntiMissile
@@ -479,7 +480,7 @@ outfit "Antimatter Core"
 	"unplunderable" 1
 	description "Although humanity is now capable of producing antimatter in relatively significant quantities when compared to a thousand years ago, it is still nothing compared to the Quarg. The Quarg can produce enough antimatter to outfit every ship with an extremely efficient antimatter core, producing extreme amounts of energy with surprisingly little waste heat."
 	
-outfit "Large Antimatter Core"
+outfit "Large Antimatter Core" #Old
 	category "Power"
 	cost 400000000
 	thumbnail "outfit/quarg antimatter core"
@@ -489,6 +490,51 @@ outfit "Large Antimatter Core"
 	"heat generation" 55
 	"unplunderable" 1
 	description "A larger Quarg Antimatter core found on a few large Quarg Warships. It is significantly much more efficient than their standard Antimatter Core. No one can even guess how one of these even works."
+	
+	#Star color based on this thing https://en.wikipedia.org/wiki/File:TernaryColorTmap.PNG
+	#I suck at names 
+	
+outfit "Red-type Antimatter Core"
+	category "Power"
+	cost 100000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 80
+	"heat generation" 20
+	"unplunderable" 1
+	description "Although humanity is now capable of producing antimatter in relatively significant quantities when compared to a thousand years ago, it is still nothing compared to the Quarg. The Quarg can produce enough antimatter to outfit every ship with an extremely efficient antimatter core, producing extreme amounts of energy with surprisingly little waste heat."
+	
+outfit "Orange-type Antimatter Core"
+	category "Power"
+	cost 400000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 140
+	"heat generation" 55
+	"unplunderable" 1
+	
+outfit "Magenta-type Antimatter Core"
+	category "Power"
+	cost 1200000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 180
+	"outfit space" -180
+	"energy generation" 212
+	"heat generation" 81.1
+	"unplunderable" 1
+	
+outfit "Blue-type Antimatter Core"
+	category "Power"
+	cost 3600000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 260
+	"outfit space" -260
+	"energy generation" 312
+	"heat generation" 120
+	"unplunderable" 1
+	
 	
 #==================================Shield Gen
 	
