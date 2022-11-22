@@ -1,7 +1,7 @@
 #Torpedo: High burst damage, less DPS.
 outfit "Quarg Skypiercer" 
 	category "Guns"
-	cost 180000000
+	cost 70000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 54
 	"outfit space" -54
@@ -37,7 +37,7 @@ outfit "Quarg Skypiercer"
 
 outfit "Quarg Starwrath"
 	category "Guns"
-	cost 180000000
+	cost 380000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 120
 	"outfit space" -100
@@ -89,7 +89,7 @@ effect "quarg starwrath spark"
 
 outfit "Quarg Godblade"
 	category "Guns"
-	cost 280000000
+	cost 2800000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 500
 	"outfit space" -350
@@ -120,7 +120,7 @@ outfit "Quarg Godblade"
 
 outfit "Quarg Celestialhammer"
 	category "Guns"
-	cost 280000000
+	cost 2800000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 500
 	"outfit space" -450
@@ -207,7 +207,7 @@ outfit "quarg celestialhammer micro fragment"
 	
 outfit "Quarg Skyfury"
 	category "Turrets"
-	cost 18000000
+	cost 25000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 120
 	"outfit space" -120
@@ -295,8 +295,8 @@ effect "quarg small trail short"
 
 outfit "Quarg Starpike"
 	category "Turrets"
-	cost 180000000
-	thumbnail "outfit/quarg skylance"
+	cost 340000000
+	thumbnail "outfit/quarg starpike"
 	"mass" 88
 	"outfit space" -88
 	"weapon capacity" -88
@@ -321,11 +321,11 @@ outfit "Quarg Starpike"
 		"damage dropoff" 700
 		"dropoff modifier" .5
 		"piercing" .1
-	description "A more powerful and long-ranged beam weapon utilized by the Quarg."
+	description "A more powerful and long-ranged beam weapon utilized by the Quarg. Damages dropoff at longer range(700)."
 
 outfit "Quarg Starpilum"
 	category "Turrets"
-	cost 120000000
+	cost 110000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 68
 	"outfit space" -68
@@ -385,7 +385,7 @@ outfit "quarg starpilum projectile"
 	
 outfit "Quarg Etherealmace"
 	category "Turrets"
-	cost 180000000
+	cost 110000000
 	thumbnail "outfit/quarg skylance"
 	"mass" 54
 	"outfit space" -54
@@ -480,7 +480,7 @@ outfit "Antimatter Core"
 	"unplunderable" 1
 	description "Although humanity is now capable of producing antimatter in relatively significant quantities when compared to a thousand years ago, it is still nothing compared to the Quarg. The Quarg can produce enough antimatter to outfit every ship with an extremely efficient antimatter core, producing extreme amounts of energy with surprisingly little waste heat."
 	
-outfit "Large Antimatter Core" #Old
+outfit "Large Antimatter Core" #Deprecated
 	category "Power"
 	cost 400000000
 	thumbnail "outfit/quarg antimatter core"
