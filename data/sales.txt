@@ -25,6 +25,9 @@ outfitter "developer"
 	"Quarg Pavise Anti-Missile"
 	# Power
 	"Large Antimatter Core"
+	"Orange-type Antimatter Core"
+	"Magenta-type Antimatter Core"
+	"Blue-type Antimatter Core"
 	# Shield Gen
 	"Fabric Shield Generator"
 	"Mail Shield Generator"

@@ -800,3 +800,22 @@ mission "BytS Quarg(Hai): Hunt player down I (Extra Hard)"
 		system `Hevru Hai`
 		fleet "Quarg Warfleet" 36
 		fleet "Quarg Titan Warfleet" 8
+
+mission "BYTS: Quarg Ships Atrocity"
+	landing
+	invisible
+	source
+		government "Quarg"
+		not attributes uninhabited
+	to offer
+		not "omnis start"
+		or
+			has "ship model: Quarg Tiamat"
+			has "ship model: Quarg Hydra"
+			has "ship model: Quarg Zilant"
+			has "ship model: Quarg Fafnir"
+			has "ship model: Quarg Tarasque"
+			has "ship model: Quarg Psuchawrl"
+			has "ship model: Quarg Gtuhanai"
+	on offer
+		conversation "quarg imprisonment"

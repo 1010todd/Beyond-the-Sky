@@ -1,6 +1,8 @@
 # Beyond the Sky
  Endless Sky plugin expanding advanced alien contents
  
+Requires: Continuous/0.9.17+
+
  Currently includes:
  
  -New Quarg warships & outfits:	
