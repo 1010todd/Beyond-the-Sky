@@ -635,7 +635,7 @@ outfit "Intrusion Countermeasures"
 outfit "Cannonade Counter-assault"
 	category "Systems"
 	"cost" 20000000
-	thumbnail "outfit/quarg countermeasures"
+	thumbnail "outfit/quarg cannonade"
 	"capture defense" 240
 	"capture attack" 40
 	"unplunderable" 1
