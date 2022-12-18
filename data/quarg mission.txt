@@ -3,8 +3,8 @@ mission "BytS: Extra Hard"
 	job
 	description `Increase Quarg fleet number much more exponentially (Pre 7/06/2022 Update). Note this is much more difficult(and unbalanced) than standard. WARNING: May impact performance on lower end computers.`
 	source
-		government "cheat"
-		system Omnis
+		government "cheat" "vanilla"
+		#system Omnis
 	on accept
 		set "BytS: Extra Hard"
 		fail
@@ -13,8 +13,8 @@ mission "BytS: Super Hard"
 	job
 	description `Reduce triggering thresholds, Increase Quarg fleet number, spawnrate, and make Quargs hunt you more aggressively. WARNING: May impact performance on lower end computers.`
 	source
-		government "cheat"
-		system Omnis
+		government "cheat" "vanilla"
+		#system Omnis
 	on accept
 		set "BytS: Extra Hard"
 		set "BytS: Super Hard"
