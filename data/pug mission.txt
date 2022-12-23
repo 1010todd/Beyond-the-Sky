@@ -1,3 +1,52 @@
+
+#Temporary for just Tulikaa, once Pug have complete set of T2 ships a permanent, non-beta mission will be used.
+mission "BytS Pug (Wanderer) Threatened beta-1"
+	landing
+	invisible
+	to offer
+		or
+			"reputation: Pug (Wanderer)" < -50
+			and
+				"reputation: Pug (Wanderer)" < -10
+				has "BytS: Extra Hard"
+	on offer
+		event "BytS: Pug Wanderer Up-arm 1 (Tulikaa)"
+	on accept
+		fail
+		
+event "BytS: Pug Wanderer Up-arm 1 (Tulikaa)"
+	fleet "Small Pug (Wanderer)"
+		add variant 1
+			"Pug Tulikaa (Combat)"
+		add variant 2
+			"Pug Tulikaa (Combat)" 2
+		add variant 1
+			"Pug Enfolta"
+			"Pug Tulikaa (Combat)"
+	
+	fleet "Large Pug (Wanderer)"
+		add variant 1
+			"Pug Enfolta"
+			"Pug Tulikaa (Combat)" 2
+		add variant 2
+			"Pug Tulikaa (Combat)" 4
+		add variant 1
+			"Pug Enfolta"
+			"Pug Tulikaa (Combat)" 3
+		add variant 1
+			"Pug Tulikaa (Combat)" 5
+		add variant 2
+			"Pug Maboro"
+			"Pug Tulikaa (Combat)" 2
+		add variant 3
+			"Pug Maboro"
+			"Pug Enfolta"
+			"Pug Tulikaa (Combat)"
+		add variant 1
+			"Pug Maboro"
+			"Pug Enfolta"
+			"Pug Tulikaa (Combat)" 2
+		
 mission "BytS Pug Very Angry at Being Farmed"
 	landing
 	invisible

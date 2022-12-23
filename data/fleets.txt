@@ -8,6 +8,50 @@ fleet "Pug T5 Patrol"
 	variant 40
 		"Pug Lzdihsek" 3
 		
+fleet "Small Pug (Wanderer)"
+	government "Pug (Wanderer)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Tulikaa"
+	variant 2
+		"Pug Tulikaa" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Tulikaa"
+
+fleet "Large Pug (Wanderer)"
+	government "Pug (Wanderer)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Tulikaa" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Tulikaa" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Tulikaa" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Tulikaa"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Tulikaa" 2
+		
 fleet "Quarg Reserve Fleet"
 	government "Quarg"
 	names "quarg"

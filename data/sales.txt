@@ -8,6 +8,7 @@ shipyard "developer"
 	"Quarg Psuchawrl"
 	"Quarg Gtuhanai"
 	
+	"Pug Tulikaa"
 	"Pug Lzdihsek"
 	
 outfitter "developer"
@@ -40,10 +41,15 @@ outfitter "developer"
 	"Pauncer Nanite Repair"
 	#======================================Pug
 	#Gun
+	"Pug Heetlo"
+	"Pug Kaluurti"
+	"Pug Arootka"
+	"Pug Viootru"
 	"Pug Aeek'elri"
 	#Turret
 	"Pug Yeaki'ark"
 	"Tekskri Anti-Missile"
+	"Pug Eelik Anti-Missile"
 	"Ekpiro Cloaking Device"
 	"Veeki'akei Engines"
 	"Pug Defense Grid"
