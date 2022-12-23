@@ -5,9 +5,11 @@ Requires: Continuous/0.9.17+
 
  Currently includes:
  
- -New Quarg warships & outfits:	
+ -New Quarg warships & outfits.
+  * Several new ships(mostly warships), most only spawn when hostile enough.
  
  -New Pug warship & outfits:	
+  * A few new ships, some only spawn after the Arfecta is defeated.
  
  -Mechanic to adjust fleet strength according to player's strength.
 
