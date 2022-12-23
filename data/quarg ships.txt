@@ -6,11 +6,13 @@ ship "Quarg Wardragon"
 		"cost" 5900000
 		"shields" 160000
 		"hull" 50000
-		"required crew" 8
-		"bunks" 10
+		#"required crew" 8
+		#"bunks" 10
+		"required crew" 160
+		"bunks" 185
 		"mass" 360
 		"drag" 9.3
-		"heat dissipation" .7
+		"heat dissipation" .9
 		"fuel capacity" 1600
 		"cargo space" 50
 		"outfit space" 640
@@ -49,7 +51,198 @@ ship "Quarg Wardragon"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "The Wardragon is used by the Quarg as a light warship."
+	description "The Wardragon is used by the Quarg as a light warship for general patrol and scouting."
+
+#===============================================
+#==========Wardragon Style/Police|Civilian Style
+#===============================================
+
+ship "Quarg Amphithere"
+	sprite "ship/quarg amphithere"
+	thumbnail "thumbnail/quarg amphithere thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 5900000
+		"shields" 300000
+		"hull" 95000
+		"required crew" 225
+		"bunks" 260
+		"mass" 788
+		"drag" 14.5
+		"heat dissipation" .85
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 880
+		"weapon capacity" 360
+		"engine capacity" 180
+		"hull repair rate" 6.5
+		"hull energy" 6.5
+		"ramscoop" 8
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skylance" 4
+		"Quarg Anti-Missile" 2
+		
+		"Orange-type Antimatter Core"
+		"Nanotech Battery"
+		"Fabric Shield Generator"
+		"Mail Shield Generator"
+		"Intrusion Countermeasures" 260
+		
+		"Dhow Graviton Thruster"
+		"Pion Graviton Thruster"
+		"Pion Graviton Steering"
+		"Jump Drive"
+		
+	turret -8 -122.5 
+	turret 8 -122.5 
+	turret -45 38.5 
+	turret 45 38.5 
+	turret -65.5 61 "Quarg Anti-Missile"
+	turret 65.5 61 "Quarg Anti-Missile"
+	engine -12.5 118 
+	engine 12.5 118 
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "Quarg medium-weight patrol craft for peacetime policing and escort."
+	
+ship "Quarg Slibinas"
+	sprite "ship/quarg slibinas"
+	thumbnail "thumbnail/quarg slibinas thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 5900000
+		"shields" 327000
+		"hull" 75000
+		"required crew" 185
+		"bunks" 220
+		"mass" 652
+		"drag" 9.8
+		"heat dissipation" .87
+		"fuel capacity" 1200
+		"cargo space" 10
+		"outfit space" 1022
+		"weapon capacity" 544
+		"engine capacity" 260
+		"hull repair rate" 6.5
+		"hull energy" 6.5
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skylance" 2
+		"Quarg Skypiercer" 6
+		"Quarg Anti-Missile" 2
+		
+		"Orange-type Antimatter Core"
+		"Nanotech Battery"
+		"Fabric Shield Generator"
+		"Mail Shield Generator"
+		"Intrusion Countermeasures" 220
+		
+		"Yawl Graviton Thruster"
+		"Yawl Graviton Steering"
+		"Jump Drive"
+		
+	turret -37 -1.5 "Quarg Skylance"
+	turret 37 -1.5 "Quarg Skylance"
+	turret -16.5 27 
+	turret 16.5 27 
+	gun -19.5 -49 
+	gun 19.5 -49 
+	gun -29.5 -39 
+	gun 29.5 -39 
+	gun -53.5 -27 
+	gun 53.5 -27 
+	engine -30 85 
+	engine 30 85 
+	engine -19 112.5 
+	engine 19 112.5 
+
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "Quarg medium-weight fast patrol craft for fast interception and scouting into more dangerous area."
+	
+ship "Quarg Kaukas"
+	sprite "ship/quarg kaukas"
+	thumbnail "thumbnail/quarg kaukas thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 5900000
+		"shields" 548000
+		"hull" 129000
+		"required crew" 320
+		"bunks" 360
+		"mass" 4292
+		"drag" 16.4
+		"heat dissipation" .75
+		"fuel capacity" 1800
+		"cargo space" 2750
+		"outfit space" 1395
+		"weapon capacity" 788
+		"engine capacity" 260
+		"hull repair rate" 7
+		"hull energy" 7
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Starpike" 4
+		"Quarg Skylance" 4
+		"Quarg Pavise Anti-Missile" 2
+		
+		"Orange-type Antimatter Core"
+		"Nanotech Battery" 4
+		"Lamellar Shield Generator"
+		"Intrusion Countermeasures" 320
+		
+		"Yawl Graviton Thruster"
+		"Yawl Graviton Steering"
+		"Jump Drive"
+		
+	turret -40 -249 
+	turret 40 -249 
+	turret -48 -192.5 "Quarg Starpike"
+	turret 48 -192.5 "Quarg Starpike"
+	turret 0 18.5 "Quarg Pavise Anti-Missile"
+	turret 0 83.5 "Quarg Pavise Anti-Missile"
+	turret -139 198.5 "Quarg Starpike"
+	turret 139 198.5 "Quarg Starpike"
+	turret -136 248.5 
+	turret 136 248.5 
+	engine -57.5 319.5 
+	engine 57.5 319.5 
+	engine 0 352.5 
+	engine 0 352.5 
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Quarg heavy freighter for shipping large amount of cargo across large distance."
+	
+#===============================================
+#=======================New Style/Military Style
+#===============================================
 	
 #================================Medium Warships
 

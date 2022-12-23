@@ -1,4 +1,9 @@
 shipyard "developer"
+
+	"Quarg Amphithere"
+	"Quarg Slibinas"
+	"Quarg Kaukas"
+
 	"Quarg Tiamat"
 	"BytS Quarg Hydra"
 	"Quarg Zilant"

@@ -810,6 +810,9 @@ mission "BYTS: Quarg Ships Atrocity"
 	to offer
 		not "omnis start"
 		or
+			has "ship model: Quarg Amphithere"
+			has "ship model: Quarg Slibinas"
+			has "ship model: Quarg Kaukas"
 			has "ship model: Quarg Tiamat"
 			has "ship model: Quarg Hydra"
 			has "ship model: Quarg Zilant"

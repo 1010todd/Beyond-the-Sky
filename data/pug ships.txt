@@ -4,7 +4,7 @@ ship "Pug Tulikaa"
 	#"uncapturable"
 	attributes
 		category "Light Warship"
-		"cost" 44200000
+		"cost" 15200000
 		"shields" 12000
 		"shield generation" 12
 		"hull" 7500

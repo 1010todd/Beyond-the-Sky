@@ -551,7 +551,7 @@ outfit "Fabric Shield Generator" #Gambeson sounds too weird/long
 	"outfit space" -45
 	"shield generation" 3.5
 	"shield energy" 3.5
-	description ""
+	description "Quarg small shield generator"
 	
 outfit "Mail Shield Generator"
 	category "Systems"
@@ -561,7 +561,7 @@ outfit "Mail Shield Generator"
 	"outfit space" -74
 	"shield generation" 6
 	"shield energy" 6
-	description ""
+	description "Quarg medium shield generator"
 	
 outfit "Lamellar Shield Generator"
 	category "Systems"
@@ -571,7 +571,7 @@ outfit "Lamellar Shield Generator"
 	"outfit space" -120
 	"shield generation" 10
 	"shield energy" 10
-	description "The first humans who met the Quarg thought that their technology worked on magic, and many even think so to this day. The mechanism by which this Quarg shield generator works is completely unknown to humanity, and the Quarg aren't interested in giving up their secrets."
+	description "Quarg large shield generator."
 
 outfit "Plate Shield Generator"
 	category "Systems"

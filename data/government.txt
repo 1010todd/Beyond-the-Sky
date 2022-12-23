@@ -38,6 +38,7 @@ government "Quarg"
 		"Quarg Pavise Anti-Missile"
 		# Power
 		"Large Antimatter Core"
+		"Red-type Antimatter Core"
 		"Orange-type Antimatter Core"
 		"Magenta-type Antimatter Core"
 		"Blue-type Antimatter Core"
