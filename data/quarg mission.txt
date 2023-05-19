@@ -39,6 +39,7 @@ mission "BytS Quarg Increased Security"
 				"BytS: Super Hard" == 1
 	on offer
 		event "Byts Quarg Increased Security"
+		fail
 
 mission "BytS Quarg Increased Security 2"
 	landing
@@ -51,6 +52,7 @@ mission "BytS Quarg Increased Security 2"
 				"BytS: Super Hard" == 1
 	on offer
 		event "Byts Quarg Increased Security 2"
+		fail
 		
 mission "BytS Quarg Increased Security 3"
 	landing
@@ -63,6 +65,7 @@ mission "BytS Quarg Increased Security 3"
 				"BytS: Super Hard" == 1
 	on offer
 		event "Byts Quarg Increased Security 3"
+		fail
 
 mission "BytS Quarg Dangerous Player 1"
 	landing
@@ -76,6 +79,7 @@ mission "BytS Quarg Dangerous Player 1"
 				"BytS: Super Hard" == 1
 	on offer
 		event "Byts Quarg Increased Security 2"
+		fail
 
 mission "BytS Quarg Very Angry"
 	landing
@@ -504,12 +508,16 @@ mission "BytS Quarg: Hunt player down I"
 				"reputation: Quarg" <= -100000
 			
 	npc kill
+		on kill
+			fail #to remove the mission
 		government "Quarg"
 		personality
 			vindictive unconstrained 
 		system Enif
 		fleet "Quarg Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 2900
@@ -518,6 +526,8 @@ mission "BytS Quarg: Hunt player down I"
 		system Enif
 		fleet "Quarg Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 7800
@@ -526,6 +536,8 @@ mission "BytS Quarg: Hunt player down I"
 		system Enif
 		fleet "Quarg Warfleet" 2
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 22000
@@ -535,6 +547,8 @@ mission "BytS Quarg: Hunt player down I"
 		fleet "Quarg Warfleet" 4
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 48900
@@ -572,6 +586,8 @@ mission "BytS Quarg: Hunt player down I (Extra Hard)"
 				"reputation: Quarg" <= -40000
 			
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		personality
 			vindictive unconstrained 
@@ -579,6 +595,8 @@ mission "BytS Quarg: Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 4
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 500
@@ -588,6 +606,8 @@ mission "BytS Quarg: Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 8
 		fleet "Quarg Titan Warfleet" 2
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 2200
@@ -597,6 +617,8 @@ mission "BytS Quarg: Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 16
 		fleet "Quarg Titan Warfleet" 4
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 6500
@@ -606,6 +628,8 @@ mission "BytS Quarg: Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 32
 		fleet "Quarg Titan Warfleet" 8
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 18500
@@ -640,6 +664,8 @@ mission "BytS Quarg: Hunt player down I (Super Hard)"
 				"reputation: Quarg" <= -3000
 			
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		personality
 			vindictive unconstrained 
@@ -708,12 +734,16 @@ mission "BytS Quarg(Hai): Hunt player down I"
 				"reputation: Quarg" <= -100000
 			
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		personality
 			vindictive unconstrained 
 		system `Hevru Hai`
 		fleet "Quarg Warfleet" 2
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 7800
@@ -722,6 +752,8 @@ mission "BytS Quarg(Hai): Hunt player down I"
 		system `Hevru Hai`
 		fleet "Quarg Warfleet" 2
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 25000
@@ -731,6 +763,8 @@ mission "BytS Quarg(Hai): Hunt player down I"
 		fleet "Quarg Warfleet" 4
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 46000
@@ -767,6 +801,8 @@ mission "BytS Quarg(Hai): Hunt player down I (Extra Hard)"
 				"reputation: Quarg" <= -40000
 			
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		personality
 			vindictive unconstrained 
@@ -774,6 +810,8 @@ mission "BytS Quarg(Hai): Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 5
 		fleet "Quarg Titan Warfleet" 1
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 50
@@ -783,6 +821,8 @@ mission "BytS Quarg(Hai): Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 9
 		fleet "Quarg Titan Warfleet" 2
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 220
@@ -792,6 +832,8 @@ mission "BytS Quarg(Hai): Hunt player down I (Extra Hard)"
 		fleet "Quarg Warfleet" 18
 		fleet "Quarg Titan Warfleet" 4
 	npc kill
+		on kill
+			fail
 		government "Quarg"
 		to spawn
 			"armament deterrence" >= 600
