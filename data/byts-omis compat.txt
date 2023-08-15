@@ -1,0 +1,14 @@
+mission "BYTS-Omnis: Exempt from Quarg Arrest"
+	landing
+	invisible
+	to offer
+		or
+			has "omnis start"
+			has "omnisStart"
+	on offer
+		event "byts-omnis: exempt from quarg arrest"
+		fail
+		
+event "byts-omnis: exempt from quarg arrest"
+	government "Quarg"
+		remove atrocities
