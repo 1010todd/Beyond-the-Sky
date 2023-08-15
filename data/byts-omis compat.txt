@@ -12,3 +12,9 @@ mission "BYTS-Omnis: Exempt from Quarg Arrest"
 event "byts-omnis: exempt from quarg arrest"
 	government "Quarg"
 		remove atrocities
+	government "Quarg (Hai)"
+		remove atrocities
+	government "Quarg (Kor Efret)"
+		remove atrocities
+	government "Quarg (Gegno)"
+		remove atrocities
